@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://github.com/dani117m/Calculadora/blob/master/fondo.jpg?raw=true) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+
+.formulario1 {
+    width: 550px;
+    height: 900px;
+    background: #cecece7e;
+    color: #000000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+    border-radius: 20px;
+
+
+
+}
+
+
+.formulario1 label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+
+
+}
+
+.formulario1 input{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.formulario1 input[type="text"],
+.formulario1 input[type="password"]{
+    border: none;
+    border-bottom: 1px solid rgb(10, 10, 10);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+.formulario1 input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #00be00;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.formulario1 a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+.formulario1 a:hover {
+    color: #fff;
+}
